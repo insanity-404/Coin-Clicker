@@ -8,18 +8,6 @@ let amt = 1
 let buySound = new Audio();
 buySound.src = "./media/Ka-Ching SFX.mp3";
 
-let music = new Audio();
-music.src = "./media/Party House.wav";
-music.loop = true;
-music.volume = 1
-music.play();
-
-function muteMusic() {
-    music.volume = 0
-}
-function unmuteMusic() {
-    music.volume = 1
-}
 function muteSFX() {
     buySound.volume = 0
 }
