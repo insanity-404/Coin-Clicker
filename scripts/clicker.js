@@ -6,10 +6,10 @@ let autoClickerCost = 50
 let amt = 1
 
 let buySound = new Audio();
-buySound.src = "./Ka-Ching SFX.mp3";
+buySound.src = "./media/Ka-Ching SFX.mp3";
 
 let music = new Audio();
-music.src = "Party House.wav";
+music.src = "./media/Party House.wav";
 music.loop = true;
 music.volume = 1
 music.play();
