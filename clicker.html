@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>Coin Clicker</title>
+    <link rel="stylesheet" href="clicker.css" />
+    <script src="clicker.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Coin Clicker!!</h1>
+        <div id="musicControll">
+          <button id="muteButton" class="soundBtns" onclick="muteMusic()">Mute Music</button>
+          <button id="unmuteButton" class="soundBtns" onclick="unmuteMusic()">Unmute Music</button>
+        </div>
+        <div>
+          <button id="muteSFXButton" class="soundBtns" onclick="muteSFX()">Mute SFX</button>
+          <button id="unmuteSFXButton" class="soundBtns" onclick="unmuteSFX()">Unmute SFX</button>
+        </div id="sfxControll">
+        <h2 id="coinDisplay">Coins: 0</h2>
+        <h2 id="CPS">Clicks Per Second: 0</h2>
+        <button id="coinButton" onclick="Click()">💰</button>
+        <button id="upgradeClicksButton1" class="button" onclick="BuyUpgrade()">Buy 1 Upgrade For 25 Coins</button>
+        <button id="autoClickerButton1" class="button" onclick="BuyAutoClicker()">Buy 1 Auto Clicker For 50 Coins</button>
+    </div>
+  </body>
+</html>
